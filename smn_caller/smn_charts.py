@@ -33,25 +33,7 @@ def get_args():
     args = parser.parse_args()
     return args
 
-
-def main(conf):
-    args = get_args()
-    if args.pop_data is not None:
-        conf["pop_file"] = args.pop_data
-    conf["sample_file"] = args.sample_data
-    conf["output_dir"] = args.out_dir
-
-    pop_data = util.read_pop_data(conf["pop_file"])
-    sample_data = util.read_sample_data(conf["sample_file"])
-
-    if args.svg:
-        write_svg(conf, pop_data, sample_data)
-    else:
-        write_pdf(conf, pop_data, sample_data)
-
-
-if __name__ == "__main__":
-    config = {
+conf = {
         "set_width": 800,
         "set_height": 200,
         "set_padding": 40,
@@ -70,5 +52,24 @@ if __name__ == "__main__":
             "columns": ["SMN1_read_support", "SMN2_read_support"]
         },
         "output_dir": script_dir
-    }
-    main(config)
+}
+
+
+def main():
+    args = get_args()
+    if args.pop_data is not None:
+        conf["pop_file"] = args.pop_data
+    conf["sample_file"] = args.sample_data
+    conf["output_dir"] = args.out_dir
+
+    pop_data = util.read_pop_data(conf["pop_file"])
+    sample_data = util.read_sample_data(conf["sample_file"])
+
+    if args.svg:
+        write_svg(conf, pop_data, sample_data)
+    else:
+        write_pdf(conf, pop_data, sample_data)
+
+
+if __name__ == "__main__":
+    main()
