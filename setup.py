@@ -38,14 +38,13 @@ setup(
     long_description=long_description,
     packages=["smn_caller"],
     include_package_data=True,
-    python_requires=">=3.7",
+    python_requires=">=3.9",
     license="PolyForm Strict License 1.0.0",
     keywords="",
     url="https://github.com/Illumina/SMNCopyNumberCaller",
     classifiers=[
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
     ],
 )
