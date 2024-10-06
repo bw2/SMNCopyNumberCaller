@@ -45,7 +45,7 @@ setup(
 		"smn_caller.depth_calling",
 		"smn_caller.data",
     ],
-    package_dir={"": "smn_caller"},
+    package_dir={"": ""},
     include_package_data=True,
     python_requires=">=3.9",
     license="PolyForm Strict License 1.0.0",
