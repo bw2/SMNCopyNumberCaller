@@ -1,8 +1,8 @@
 import math
 
-import charts.scale as scale
-import charts.svgs.svg_line_chart as svg_line
-import charts.pdfs.pdf_line_chart as pdf_line
+import smn_caller.charts.scale as scale
+import smn_caller.charts.svgs.svg_line_chart as svg_line
+import smn_caller.charts.pdfs.pdf_line_chart as pdf_line
 
 
 class LineConfigException(Exception):

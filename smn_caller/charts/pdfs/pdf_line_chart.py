@@ -1,6 +1,6 @@
-from charts.colors import color_arr
-from charts.pdfs import pdf
-from charts.scale import scale
+from smn_caller.charts.colors import color_arr
+from smn_caller.charts.pdfs import pdf
+from smn_caller.charts.scale import scale
 from reportlab.graphics.shapes import PolyLine
 
 

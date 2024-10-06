@@ -22,7 +22,7 @@
 
 from collections import namedtuple
 import pysam
-from .utilities import open_alignment_file
+from smn_caller.depth_calling.utilities import open_alignment_file
 
 
 COMPLEMENT = {"A": "T", "T": "A", "C": "G", "G": "C", "N": "N"}

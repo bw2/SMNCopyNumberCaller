@@ -1,5 +1,5 @@
-from charts.colors import color_arr
-from charts.scale import scale
+from smn_caller.charts.colors import color_arr
+from smn_caller.charts.scale import scale
 from reportlab.graphics.shapes import Line, String, rotate, Circle, Rect, PolyLine
 
 

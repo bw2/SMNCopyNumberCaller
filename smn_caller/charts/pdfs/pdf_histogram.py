@@ -1,6 +1,6 @@
-import charts.pdfs.pdf as pdf
-from charts.colors import colors, color_arr
-from charts.scale import scale
+import smn_caller.charts.pdfs.pdf as pdf
+from smn_caller.charts.colors import colors, color_arr
+from smn_caller.charts.scale import scale
 from reportlab.graphics.shapes import Line
 
 

@@ -1,8 +1,8 @@
 import math
 
-import charts.svgs.svg as svg
-from charts.scale import scale, y_scale
-from charts.colors import colors, color_arr
+import smn_caller.charts.svgs.svg as svg
+from smn_caller.charts.scale import scale, y_scale
+from smn_caller.charts.colors import colors, color_arr
 
 
 def get_svg(sample, conf, x_axis, y_axis, norm_y_axis, cols):

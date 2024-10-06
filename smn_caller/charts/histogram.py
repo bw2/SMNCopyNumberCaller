@@ -1,8 +1,8 @@
 import math
-import charts.svgs.svg_histogram as svg_histo
-import charts.pdfs.pdf_histogram as pdf_histo
-import charts.scale as scale
-import charts.data_utils as util
+import smn_caller.charts.svgs.svg_histogram as svg_histo
+import smn_caller.charts.pdfs.pdf_histogram as pdf_histo
+import smn_caller.charts.scale as scale
+import smn_caller.charts.data_utils as util
 
 
 class ConfigException(Exception):

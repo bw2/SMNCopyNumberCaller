@@ -30,19 +30,19 @@ from collections import namedtuple
 import pysam
 
 
-from depth_calling.snp_count import get_supporting_reads, get_fraction, get_snp_position
-from depth_calling.gmm import Gmm
-from depth_calling.utilities import (
+from smn_caller.depth_calling.snp_count import get_supporting_reads, get_fraction, get_snp_position
+from smn_caller.depth_calling.gmm import Gmm
+from smn_caller.depth_calling.utilities import (
     parse_gmm_file,
     parse_region_file,
     open_alignment_file,
 )
-from depth_calling.bin_count import (
+from smn_caller.depth_calling.bin_count import (
     get_normed_depth,
     get_normed_depth_from_count,
     get_read_length,
 )
-from caller.call_smn12 import get_smn12_call
+from smn_caller.caller.call_smn12 import get_smn12_call
 
 MAD_THRESHOLD = 0.11
 

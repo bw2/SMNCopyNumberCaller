@@ -1,6 +1,6 @@
-import charts.svgs.svg_bar as svg_bar
-import charts.pdfs.pdf_bar as pdf_bar
-import charts.scale as scale
+import smn_caller.charts.svgs.svg_bar as svg_bar
+import smn_caller.charts.pdfs.pdf_bar as pdf_bar
+import smn_caller.charts.scale as scale
 import math
 
 

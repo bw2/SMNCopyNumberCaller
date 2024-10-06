@@ -1,7 +1,7 @@
 import argparse
 import charts.data_utils as util
 import os
-from charts.draw import write_svg, write_pdf
+from smn_caller.charts.draw import write_svg, write_pdf
 
 script_dir = os.path.abspath(os.path.dirname(__file__))
 

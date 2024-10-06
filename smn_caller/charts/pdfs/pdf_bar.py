@@ -1,6 +1,6 @@
-import charts.pdfs.pdf as pdf
-from charts.scale import scale
-from charts.colors import colors, color_arr
+import smn_caller.charts.pdfs.pdf as pdf
+from smn_caller.charts.scale import scale
+from smn_caller.charts.colors import colors, color_arr
 
 
 def get_pdf(sample, x_axis, y_axis, norm_y_axis, cols):

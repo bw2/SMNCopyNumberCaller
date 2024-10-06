@@ -1,6 +1,6 @@
-import charts.svgs.svg as svg
-from charts.scale import scale, y_scale
-from charts.colors import colors, color_arr
+import smn_caller.charts.svgs.svg as svg
+from smn_caller.charts.scale import scale, y_scale
+from smn_caller.charts.colors import colors, color_arr
 
 
 def get_svg(pop_data, sample_data, config, x_axis, y_axis, col="Total_CN_raw", header=None):
