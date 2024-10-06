@@ -43,6 +43,7 @@ setup(
     	"smn_caller.charts.svgs",
     	"smn_caller.charts.pdfs",
 		"smn_caller.depth_calling",
+		"smn_caller.data",
     ],
     include_package_data=True,
     python_requires=">=3.9",
