@@ -1,5 +1,5 @@
 import argparse
-import charts.data_utils as util
+import smn_caller.charts.data_utils as util
 import os
 from smn_caller.charts.draw import write_svg, write_pdf
 
