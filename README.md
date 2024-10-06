@@ -1,3 +1,11 @@
+This fork allows SMNCopyNumberCaller to be installed directly from github using pip:
+
+```
+python3.9 -m pip install --no-cache --upgrade https://github.com/bw2/SMNCopyNumberCaller/archive/refs/heads/master.zip
+```
+
+
+---
 # SMNCopyNumberCaller
 
 SMNCopyNumberCaller is a tool to call the copy number of full-length SMN1, full-length SMN2, as well as SMN2Δ7–8 (SMN2 with a deletion of Exon7-8) from a whole-genome sequencing (WGS) BAM file. This caller works with standard WGS sequencing depth (>=30X), and is insensitive to various aligners (BWA and Isaac have been tested and no difference was observed). Please refer to our [paper](https://www.nature.com/articles/s41436-020-0754-0) for details about the method.   
