@@ -30,7 +30,7 @@ from scipy.stats import poisson
 dir_name = os.path.join(os.path.dirname(os.path.dirname(__file__)), "depth_calling")
 if os.path.exists(dir_name):
     sys.path.append(dir_name)
-from depth_calling.copy_number_call import (
+from smn_caller.depth_calling.copy_number_call import (
     call_reg1_cn,
     process_raw_call_gc,
     process_raw_call_denovo,
